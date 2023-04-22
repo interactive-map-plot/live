@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Hind:wght@400;700&display=swap');
+
+#map,
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Hind', sans-serif;
+  color: #333333;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+#title {
+  display: inline-block;
+  z-index: 1000;
+  text-align: center;
+  padding: 25px;
+  margin: 25px auto; 
+  background-color: #fefffe;
+  border-radius: 10px;
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25); /* Add box-shadow */
+}
+
+#title h1 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+p {
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.legend {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 0 15px 15px 15px;
+  background: #fefffe;
+  border-radius: 10px;
+  z-index: 1000;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25); /* Add box-shadow */
+}
+
+#legendMarker {
+  width: 20px;
+  height: 20px;
+  float: right;
+}
